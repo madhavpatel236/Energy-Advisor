@@ -1,0 +1,714 @@
+/*     font-family: MV Boli 
+        font-family: "MV Boli", Times, serif;
+
+*/
+
+/*     
+background-color: #3d533b;
+background-color: #98b899;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    /* color: green; */
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+/* =============================== Know More =============================== */
+
+/* ------------------------------- Home-1 ----------------------------------- */
+
+
+.more-containor-1 {
+    background-image: url('../Images/img1.png');
+    background-size: cover;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 900px 150px white;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-content-1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading-1,
+.heading-3 {
+    font-size: 45px;
+    font-weight: 550;
+    font-family: MV Boli
+}
+
+.heading-2,
+.heading-4 {
+    width: 70%;
+    font-size: 20px;
+    font-family: "MV Boli", Times, serif;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+.more-containor-2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #def1dfba;
+    box-shadow: inset 0 0 100px 50px white;
+}
+
+
+.snip1559 {
+    border: 1px solid #3d533b;
+    font-family: "MV Boli", Times, serif;
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 10px;
+    width: 350px;
+    height: 400px;
+    background-color: #98b899;
+    color: #2B2B2B;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.snip1559 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.snip1559 .profile-image {
+    padding: 15% 10% 0;
+}
+
+.snip1559 .profile-image img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    border-radius: 50%;
+    max-width: 40%;
+}
+
+.snip1559 figcaption {
+    padding: 5% 10% 15%;
+}
+
+.snip1559 h3 {
+    font-family: MV Boli;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+}
+
+
+
+/* --------------------------------- more-3 ------------------------------------- */
+
+
+
+.more-containor-3 {
+    /* background-image: url('../Images/more3.jpg'); */
+    background-color: #c1dbbf;
+    box-shadow: inset 0 0 300px 10px #c5e6c6;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-content-3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading-5,
+.heading-7 {
+    font-size: 45px;
+    font-weight: 550;
+    font-family: MV Boli;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading-6,
+.heading-8 {
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+    font-family: "MV Boli", Times, serif;
+}
+
+
+
+/* ================================================================================== */
+
+
+/* ------------------------------ Shop ------------------------------------------ */
+
+.shop-containor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.shop-Heading-1,
+.shop-Heading-2 {
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.shop-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shop-containor-1 {
+    background-color: #98b899;
+}
+
+.card {
+    margin: 10px;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: rgb(240, 240, 240);
+    box-shadow: 0 0 60px 1px #052b07;
+
+    img {
+        /* position: absolute; */
+        object-fit: fill;
+        width: 100%;
+        /* height: -10% ; */
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        transition: opacity .2s ease-out;
+    }
+
+    h2 {
+        position: absolute;
+        inset: auto auto 30px 30px;
+        margin: 0;
+        transition: inset .3s .3s ease-out;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: black;
+
+    }
+
+    p,
+    a {
+        color: black;
+        position: absolute;
+        opacity: 0;
+        max-width: 80%;
+        transition: opacity .3s ease-out;
+    }
+
+    p {
+        color: black;
+        inset: auto auto 80px 30px;
+    }
+
+    a {
+        color: black;
+        inset: auto auto 40px 30px;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &:hover h2 {
+        inset: auto auto 220px 30px;
+        transition: inset .3s ease-out;
+    }
+
+    &:hover p,
+    &:hover a {
+        opacity: 1;
+        transition: opacity .5s .1s ease-in;
+    }
+
+    &:hover img {
+        transition: opacity .3s ease-in;
+        opacity: 0;
+    }
+
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    color: black;
+}
+
+
+.shop-Heading-1,
+.shop-Heading-2 {
+    font-family: MV Boli
+}
+
+
+/* ======================================================================= */
+
+
+/* ------------------------ Templates --------------------------------- */
+
+.product-containor {
+    background-color: #98b8995c;
+}
+
+.Product-info {
+    height: 90vh;
+    display: flex;
+    /* padding-left: 10%; */
+}
+
+.product-img img {
+    margin-left: 30%;
+    height: 60%;
+    margin-top: 120px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.product-detail-box {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-name {
+    font-family: MV Boli;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.product-desciption {
+    font-size: 20px;
+    font-family: "MV Boli", Times, serif;
+    width: 75%;
+    line-height: 1.8;
+}
+
+.product-desciption h2 {
+    display: list-item;
+}
+
+.img-home2 {
+    position: relative;
+}
+
+.specs-detail {
+    padding-left: 4%;
+    text-decoration: underline !important;
+}
+
+/* ============================================================================== */
+.buy-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6%;
+}
+
+.know-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #3d533b;
+    border: 2px solid #3d533b;
+    padding: 1% 5%;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: "MV Boli", Times, serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.know-more-button:hover {
+    background-color: #789678;
+    color: black;
+}
+
+.know-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.know-more-button a {
+    color: white;
+}
+
+
+
+/* ====================================================================== */
+
+/* ---------------------------- vendor ---------------------------------- */
+
+.location-containor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #3d533b; */
+    background-image: url('../Images/location.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: inherit;
+    image-rendering: auto;
+
+}
+
+.cont-1 {
+    box-shadow: 0 0 60px 1px #bcd6bd;
+    background-color: rgba(255, 255, 255, 0.636);
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-family: MV Boli
+}
+
+.location-containor h1 {
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+.location-select {
+    width: 40%;
+    height: 30%;
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.478);
+    border: 2px solid black;
+}
+.option {
+    font-size: 20px;
+}
+
+.find-btn {
+    width: 15%;
+    height: 20%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    background-color: #bcd6bd;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* ------------------------------- Location Based Card ---------------------------------------- */
+
+.row {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-color: #98b899;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sc {
+    display: flex;
+    margin: 1% 2%;
+    font-family: MV Boli;
+    font-size: 22px;
+}
+
+.seller-card {
+    border-radius: 10px;
+    filter: drop-shadow(0 5px 10px 0 #ffffff);
+    width: 600px;
+    height: 180px;
+    background-color: #ffffff;
+    padding: 20px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-filter: drop-shadow(0 5px 10px 0 #ffffff);
+}
+
+.seller-card p {
+    color: white;
+
+}
+
+.seller-card::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -3px;
+    right: -15px;
+    background-color: #5e7e5c;
+    height: 220px;
+    width: 25px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 65% 50%;
+    transition: transform 0.25s ease-out;
+    color: white;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.seller-card:hover::before {
+    transition-delay: 0.2s;
+    transform: scale(40);
+}
+
+.seller-card h4:hover {
+    color: white;
+}
+
+.card:hover {
+    color: #ffffff;
+}
+
+.seller-card p {
+    padding: 10px 0;
+}
+
+/* --------------------------  About Us ------------------------------  */
+.about-containor {
+    background-color: #b9e0ba;
+}
+
+.h1-text {
+    font-size: 1.3rem;
+    font-size: 70px;
+    text-decoration: underline;
+    font-family: MV Boli;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: #000000;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-text i {
+    background-color: #ffffff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 0 20px;
+
+}
+
+.container {
+    z-index: 1;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box:hover{
+    transition: 2s ease-in;
+    -webkit-transition: 2s ease-in;
+    -moz-transition: 2s ease-in;
+    -ms-transition: 2s ease-in;
+    -o-transition: 2s ease-in;
+}
+
+
+.box {
+    position: relative;
+    min-width: 250px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #3d533b;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 50px 2px #000000;
+
+}
+
+
+.top-bar {
+    width: 50%;
+    height: 4px;
+    background-color: #98b899;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.fa-check-circle {
+    color: #17b667;
+}
+
+.content img {
+    width: 140px;
+    height: 130px;
+    border-radius: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content strong {
+    font-weight: 500;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.content p {
+    color: white;
+    font-size: 0.9rem;
+    margin: 4px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.content p:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a i {
+    margin-right: 9px;
+}
+
+.btn a {
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+.btn a:hover {
+    color: #000000;
+    box-shadow: 2px 5px 15px rgba(80, 123, 252, 0.05);
+    background-color: #c0d3be;
+    transition: all ease 0.5s;
+}

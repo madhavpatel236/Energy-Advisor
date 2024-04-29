@@ -1,0 +1,354 @@
+/*     font-family: MV Boli 
+        font-family: "MV Boli", Times, serif;
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    /* color: green; */
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+/* ---------------------------------- Header ----------------------------------------------- */
+
+.main-containor {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "MV Boli", Times, serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5vw;
+    height: 6vh;
+    
+}
+
+.header-containor {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50vw;
+    width: 40vw;
+    margin-right: 1vw;
+}
+
+.header-content {
+    max-width: 80px;
+    font-size: 5px;
+    
+}
+
+.header-content a {
+    color: green;
+    font-size: 18px;
+    /* font-weight: 700px; */
+}
+
+.login {
+    margin-right: 70px;
+    border: 2px solid #3d533b;
+    background-color: #3d533b;
+    border-radius: 50px;
+    padding: 7px 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.login a {
+    color: rgb(255, 255, 255);
+}
+
+.login:hover {
+    background-color: #98b899;
+    color: black;
+}
+
+.login a:hover {
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:778px) {
+    .header-containor {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+}
+
+
+
+
+/* ------------------------------ Home ------------------------------------ */
+
+.home-containor {
+    display: flex;
+    background-image: url('../Images/homeImg.png');
+    height: 90vh;
+    background-size: cover;
+    background-size: 75%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    justify-content: center;
+    
+}
+
+.home-containor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 8%;
+}
+
+.content-1 {
+    font-size: 65px;
+    font-family: MV Boli ;
+        font-weight: 700px;
+    padding-bottom: 10px;
+}
+
+
+.content-2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-family: "MV Boli", Times, serif;}
+
+.know-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.know-more-btn .navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #3d533b;
+    border: 2px solid #3d533b;
+    padding: 1% 1%;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: "MV Boli", Times, serif;    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.know-more-btn .navlink:hover {
+    background-color: #789678;
+    color: black;
+}
+
+@media (max-width:778px) {
+    .home-containor {
+        position: relative;
+        background-size: 90%;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+
+/* -------------------------- Home2 -------------------------------------- */
+
+.Home2 {
+    height: 100vh;
+    background-color: #98b8995c;
+    display: flex;
+}
+
+.img-home2 img {
+    height: 60%;
+    margin-top: 120px;
+}
+
+.Home2-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-3 {
+    font-family: MV Boli ;
+        font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.content-4 {
+    font-size: 20px;
+    font-family: "MV Boli", Times, serif;    width: 75%;
+    line-height: 1.8;
+}
+
+.img-home2 {
+    position: relative;
+}
+
+
+
+@media (max-width:778px) {
+    .Home2 {
+        padding-top: 20px;
+        background-size: 220%;
+        background-repeat: no-repeat;
+        /* border-image: fill 190 linear-gradient(#0003,#000); */
+    }
+
+    .content-3 {
+        font-family: "MV Boli", Times, serif;        font-size: 30px;
+        font-weight: 1000;
+    }
+
+    .content-4 {
+        font-family: "MV Boli", Times, serif;        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .img-home2 {
+        display: none;
+    }
+
+    .img-home2:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+
+/* ------------------------------ Home 3 ------------------------------------------------ */
+
+
+.Home3-content{
+    background-image: url('../Images/h3.png');
+    box-shadow: inset 0 0 500px 170px white;
+
+    background-size: cover;
+    background-size: 75%;
+    background-position: center -10px;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-image: fill 0 linear-gradient(#0002,#000);
+}
+.content-5{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: MV Boli ;
+        font-size: 70px;
+    font-weight: 1000;
+}
+
+.content-6{
+    display: flex;
+    max-width: 45%;
+    font-size: 30px;
+    font-family: "MV Boli", Times, serif;
+    color: rgb(0, 0, 0);
+    /* font-weight: 600; */
+    line-height: 1.8;
+    padding-bottom: 70px;
+
+}
+
+
+
+
+
+
+
+/* ---------------------------- Footer -------------------------------------- */
+
+footer {
+    background-color: black;
+    height: 100%;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.foot {
+    display: flex;
+}
+
+.f1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.foot-img{
+    margin-right: 200px;
+    padding-right: 250px;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot a{
+    color: white;
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.rights p {
+    font-size: 20px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
