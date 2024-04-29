@@ -24,7 +24,7 @@ function Footer() {
                     </ul>
                     <ul className="foot foot2">
                         <h3>Usefull Links</h3>
-                        <li><a href="https://github.com/madhavpatel236/Green-Energy-Advisor">Project Code</a></li>
+                        <li><a href="https://github.com/madhavpatel236/Energy-Advisor">Project Code</a></li>
                         <li><a href="https://github.com/madhavpatel236">GitHub </a></li>
                     </ul>
                     <ul className="foot foot3">
