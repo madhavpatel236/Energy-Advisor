@@ -194,7 +194,7 @@ body {
 .shop-containor {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 130vh;
 
 }
 
@@ -214,6 +214,7 @@ body {
 
 .shop-containor-1 {
     background-color: #98b899;
+    height: 130vh;
 }
 
 .card {
@@ -308,6 +309,7 @@ body {
 
 .product-containor {
     background-color: #98b8995c;
+    height:150vh;
 }
 
 .Product-info {
@@ -483,7 +485,7 @@ body {
 .row {
     display: flex;
     width: 100vw;
-    height: 90vh;
+    height: 150vh;
     background-color: #98b899;
     justify-content: center;
     align-items: center;
@@ -492,7 +494,7 @@ body {
 
 .sc {
     display: flex;
-    margin: 1% 2%;
+    margin: 1% ;
     font-family: MV Boli;
     font-size: 22px;
 }
@@ -503,7 +505,7 @@ body {
     width: 600px;
     height: 180px;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 5px;
     position: relative;
     z-index: 0;
     overflow: hidden;
@@ -597,7 +599,7 @@ body {
 .container {
     z-index: 1;
     width: 100%;
-    height: 120vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
